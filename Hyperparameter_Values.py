@@ -87,7 +87,6 @@ load_data()
 '                             Select_model                           '
 #============================================================================
 
-
 def refit_strategy(cv_results):
     cv_results_ = pd.DataFrame(cv_results)
     fastest_top_recall_high_precision_index = cv_results_[
@@ -2879,12 +2878,13 @@ def half_timee4(a,n):
                         
     return ii_list
 
-
+'''
 singlemodel='SVR'
 multimodel='SVR'
 basemodel='SVR'
 metamodel='MLP'
 j=90
+'''
 def plot_prediction_section3(singlemodel,multimodel,basemodel,metamodel,which,range_number=50,percentage=0):
     j=range_number
     if which=='T1/2':
@@ -2948,7 +2948,7 @@ def plot_prediction_section3(singlemodel,multimodel,basemodel,metamodel,which,ra
 
         plt.show()
         
-        
+'''     
 file_location = 'C:\\Users\\sunhouse\\ydrain'
 f1=open(file_location,'r')
 data1=pd.read_csv(f1)
@@ -2960,7 +2960,7 @@ f1=open(file_location,'r')
 data1=pd.read_csv(f1)
 data1=data1.drop('Unnamed: 0',axis=1)
 y2=np.array(data1)
-      
+'''
       
 
 
