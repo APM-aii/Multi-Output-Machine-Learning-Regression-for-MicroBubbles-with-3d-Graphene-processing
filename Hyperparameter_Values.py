@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 PARALELL_NOTCROSS_MICROBUBBLE
+
+This is hyperparameters 
 """
 
 
