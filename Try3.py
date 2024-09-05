@@ -1,7 +1,5 @@
 """
-
 NEW TRY AND ERROR
-
 """
 import pandas as pd
 import numpy as np
@@ -380,9 +378,6 @@ plot_section1('LR','SVR','LR',50)
     
 def score_section1():
     
-    
-
- 
 
 #============================================================================
 '                             Section2 : P                                 '
