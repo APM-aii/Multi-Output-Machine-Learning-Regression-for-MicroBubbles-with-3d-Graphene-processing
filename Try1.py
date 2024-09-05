@@ -12,7 +12,6 @@
 10-F_3_D_for_hypercomputer
 
 
-
 1--> from zero
 2----> without def
 3--->
@@ -595,9 +594,6 @@ row = []
 newX = asarray([row])
 yhat = model.predict(newX)
 print('Predicted: %s' % yhat[0]
-
-
-
 
 
 
