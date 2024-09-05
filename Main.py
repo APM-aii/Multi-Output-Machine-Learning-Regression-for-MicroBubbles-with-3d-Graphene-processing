@@ -3,8 +3,6 @@
 PARALELL_NOTCROSS_MICROBUBBLE
 """
 
-
-
 #=============================================================================
 '                              Import                                        '
 #=============================================================================
@@ -2986,7 +2984,6 @@ plt.ylim(0,1000)
 plt.legend()
 plt.show()
 
-
 ------------------------------------------------
 
 drainn=np.array(y_data3_drain)
@@ -3008,9 +3005,6 @@ ax.tick_params(axis='both',which='both',direction='in',bottom=True,top=False,lef
 plt.ylim(0,1000)
 plt.legend()
 plt.show()
-
-
-
 
 
 
