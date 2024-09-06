@@ -41,6 +41,11 @@ from sklearn.preprocessing import Normalizer
 from sklearn.preprocessing import PolynomialFeatures
 import matplotlib.font_manager as fm
 
+
+
+import matplotlib.font_manager as fm
+
+
 #============================================================================
 '                                 LOAD DATA                                '
 #============================================================================
@@ -101,7 +106,6 @@ import matplotlib.font_manager as fm
 
 def distribution(data,scale,scaler='minmax'):
     
-        
     if scaler=='standard':
         scaler=StandardScaler()
         n='standard'        
